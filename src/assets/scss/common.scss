@@ -1,0 +1,223 @@
+//css for resetFor
+.otpDivStyle{
+display: flex;
+margin: 0;
+// width: 100%;
+justify-content: space-between;
+
+}
+
+.otpStyle{
+    border-bottom: 1px solid black;
+    width: 35px;
+    height: 25px;
+    margin-right: 18px;
+    margin-left: 18px;
+    padding: 0px 13px;
+}
+.inputlable{
+    // font-weight: bold;
+    padding: 5px 8px;
+}
+.otp-input-container {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+    display: flex;
+    gap: 37px;
+    margin: 0;
+  }
+  
+  .otpInput {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .requiredInput{
+    color: rgba(255, 0, 0, 1);
+  }
+  .flex-Item{
+    display: flex;
+    justify-content: space-between;
+  }
+  // .formDesign:{
+  //   // background-color: #d7d3d33d;
+  //   padding: 27px;
+  //   border-radius: 22px;
+  // }
+  .avatar{
+    background-image:url("../images/avatar/av-1.svg");
+    // background-image: url("../images/all-img/user.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-left: 30%;
+  }
+  .avatarPreview{
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    bottom: 10px;
+    // margin-left: 30%;
+
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .inputBackgroundColorInDarkMode{
+    background-color: #0F172A;
+  }
+.shadow-custom{
+  box-shadow: 0 0.46875rem 2.1875rem rgba(8, 10, 37, 0.03), 0 0.9375rem 1.40625rem rgba(8, 10, 37, 0.03), 0 0.25rem 0.53125rem rgba(8, 10, 37, 0.05), 0 0.125rem 0.1875rem rgba(8, 10, 37, 0.03);
+}
+.shadow-custom-DarkMode{
+  box-shadow: 0 0.46875rem 2.1875rem rgba(8, 10, 37, 0.03), 0 0.9375rem 1.40625rem rgb(183 184 197 / 3%), 0 0.25rem 0.53125rem rgb(253 253 253 / 5%), 0 0.125rem 0.1875rem rgb(158 159 165 / 3%);
+}
+.form-body{
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.btn-color{
+  background-color: rgb(167, 192, 218);
+}
+
+  .morphism {
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+  }
+
+  .kuPCgf_dark{
+    background-color: white;
+  }
+  .table-heading{
+    font-size: "1.125rem";
+    font-weight: "500";
+    line-height: "24px";
+    color: "rgb(15 23 42 / var(--tw-text-opacity))",
+    // color:red
+  }
+  #pagination-first-page svg{
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+    // color: green
+    
+  }
+  #pagination-last-page svg{
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+    // color: green
+    
+  }
+  #pagination-previous-page svg{
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  }
+  // #pagination-next-page{
+  //   background-color: red;
+  //   color:yellow;
+  //   font-size: "20px";
+  // }
+  #pagination-next-page svg {
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  }
+  .no-data-img{
+    // background-image: url("../images/svg/NoRecordFound.svg");
+    width: 1000px;
+    // height: 1000px;
+    height: 700px;
+  }
+  .sweet-alert-popup-dark-mode-style{
+    background-color:"rgb(203 213 225 / var(--tw-text-opacity))";
+    // color: "rgb(203 213 225 / var(--tw-text-opacity))";
+    color:"green";
+    background-color: "grey";
+      
+  }
+  .sweet-alert-popup-normal-mode-style{
+    // color:"rgb(15 23 42 / var(--tw-text-opacity))"
+    color:"green";
+    background-color: "red";
+  }
+  .documentPreview{
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    // border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 3px;
+  }
+  .adharCardFront{
+    background-image: url("../images/document/aadhaar-card-front.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  
+  .adharCardBack{
+    background-image: url("../images/document/adhar-card-back.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  .panCardFront{
+    background-image: url("../images/document/pan-card-front.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  .panCardBack{
+    background-image: url("../images/document/pan-card-back.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    // margin-left: 30%;
+  }
+ 
+  .voterCardFront{
+    background-image: url("../images/document/Voter-card-front.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  .voterCardBack{
+    background-image: url("../images/document/Voter-card-back.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  .dlFront{
+    background-image: url("../images/document/dl-card-front.png");
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  .dlback{
+    background-image: url("../images/document/dl-card-back.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    position: relative;
+    // margin-left: 30%;
+  }
+  
